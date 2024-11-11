@@ -11,9 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customDarkBlue: '#252B42',
+        customLightBlue: '#23A6F0',
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
